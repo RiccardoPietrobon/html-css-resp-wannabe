@@ -13,8 +13,17 @@
     .row{
         flex-direction: column;
     }
-    .steps,
-    .lessons{
+    .lessons .col {
+    width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
         width: 100%;
     }
 }
