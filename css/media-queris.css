@@ -1,0 +1,20 @@
+/* Approccio desktop first */
+/* tablet - dai 768px in giù */
+@media screen and (max-width: 767px)  {
+    .container{
+        width: 100%;
+    }
+}
+/* mobile - dai 480px in giù */
+@media screen and (max-width: 479px) {
+    .container {
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .steps,
+    .lessons{
+        width: 100%;
+    }
+}
