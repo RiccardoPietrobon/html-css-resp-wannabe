@@ -27,3 +27,9 @@
         width: 100%;
     }
 }
+/* bonus - dai 768px ai 1160px */
+@media screen and (min-width: 768px) and (max-width: 1160px){
+    .container {
+        width: 100%;
+    }
+}
